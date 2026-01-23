@@ -1,3 +1,7 @@
 src/models
+<<<<<<< HEAD
 .venv
 __pycache__
+=======
+.venv
+>>>>>>> 18e5a17fbef3e30b3ce433e927b5340cccdcb04a

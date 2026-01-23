@@ -1,6 +1,7 @@
 from autogen_ext.models.llama_cpp import LlamaCppChatCompletionClient
 from autogen_agentchat.agents import AssistantAgent
 
+# LLM Client
 llm_client = LlamaCppChatCompletionClient(
     model_path="src/models/qwen2-7b-instruct-q4_k_m.gguf",
     temperature=0.5,
@@ -9,6 +10,7 @@ llm_client = LlamaCppChatCompletionClient(
     verbose=False
 )
 
+# Research Agent
 research_agent = AssistantAgent(
     name="ResearchAgent",
     system_message="""
@@ -22,5 +24,3 @@ User asked: What is KV caching?
     ,
     model_client=llm_client,
 )
-result = research_agent.run(task="what is RAG")
-print(result)
