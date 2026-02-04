@@ -1,6 +1,6 @@
 # Day 2 — Multi-Agent Orchestration
 
-## Overview
+# Overview
 
 * This document presents the 4-Agent Architecture for Day 2, based on a Planner → Workers → Reflection → Validator chain-of-command.
 * The system demonstrates how a user query is decomposed into smaller tasks and executed using parallel worker agents.
