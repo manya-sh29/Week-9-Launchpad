@@ -1,5 +1,7 @@
 autogen-agentchat
 autogen-core
 autogen-ext
-autogen-ext[llama-cpp]
-asyncio
+faiss-cpu
+sentence-transformers
+# autogen-ext[llama-cpp]
+# asyncio
